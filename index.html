@@ -124,13 +124,13 @@
                                                                 <div class="auth-form__group">
                                                                     <lable for="auth-form__input-user" class="auth-form__lable">Tên tài khoản hoặc địa chỉ email *</lable>
                                                                     <div  class="auth-form__input">
-                                                                    <input id="auth-form__input-user" type="text || email"  name="auth-form__input-user" class="auth-form__input-text">
+                                                                    <input id="auth-form__input-user" type="text || email"  name  required class="auth-form__input-text">
                                                                     </div>
                                                                 </div>
                                                                 <div class="auth-form__group">
                                                                     <lable for="auth-form__input-password" class="auth-form__lable">Mật khẩu *</lable>
                                                                     <div class="auth-form__input">
-                                                                        <input type="password" id="auth-form__input-password" name="auth-form__input-password" class="auth-form__input-text">
+                                                                        <input type="password"  id="auth-form__input-password" name required class="auth-form__input-text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -138,9 +138,9 @@
                                                                 <input id="auth-form__checkk" type="checkbox" class="auth-form__checkk">
                                                                 <label for="auth-form__checkk"  class="auth-form__condition-item">Ghi nhớ mật khẩu</label>
                                                             </div>
-                                                            <div class="auth-form_control">
-                                                                <button class="btn">Đăng nhập</button>
-                                                            </div>
+                                                            
+                                                                <input class="btn auth-form_control" type="submit" value="Đăng nhập">
+                                                           
                                                             <div class="auth-form__aside">
                                                                 <a href="#" class="auth-form__Forgotpassword">Quên mật khẩu ?</a>
                                                             </div>
@@ -287,15 +287,15 @@
                                                 </div>
                                                 <div class="auth-form__form">
                                                     <div class="auth-form__group">
-                                                        <lable for="auth-form__input-user" class="auth-form__lable">Tên tài khoản hoặc địa chỉ email *</lable>
+                                                        <lable for="auth-form__input-user"  class="auth-form__lable">Tên tài khoản hoặc địa chỉ email *</lable>
                                                         <div  class="auth-form__input">
-                                                        <input id="auth-form__input-user" type="text || email"  name="auth-form__input-user" class="auth-form__input-text">
+                                                        <input id="auth-form__input-user" required type="text || email"  name="auth-form__input-user" class="auth-form__input-text">
                                                         </div>
                                                     </div>
                                                     <div class="auth-form__group">
                                                         <lable for="auth-form__input-password" class="auth-form__lable">Mật khẩu *</lable>
                                                         <div class="auth-form__input">
-                                                            <input type="password" id="auth-form__input-password" name="auth-form__input-password" class="auth-form__input-text">
+                                                            <input type="password" required id="auth-form__input-password" name="auth-form__input-password" class="auth-form__input-text">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -304,7 +304,7 @@
                                                     <label for="auth-form__check"  class="auth-form__condition-item">Ghi nhớ mật khẩu</label>
                                                 </div>
                                                 <div class="auth-form_control">
-                                                    <button class="btn">Đăng nhập</button>
+                                                    <input class="btn" type="submit" value="Đăng nhập"></input>
                                                 </div>
                                                 <div class="auth-form__aside">
                                                     <a href="#" class="auth-form__Forgotpassword">Quên mật khẩu ?</a>
@@ -517,14 +517,14 @@
                                     <span class="footer__item-link">Địa chỉ: HH3A, Linh Đàm, Hoàng Mai, Hà Nội</span>
                                 </li>
                                 <li class="footer__item">
-                                    <span class="footer__item-link">Hotline: 0981273361</span>
+                                    <a href="tell: 0981273361" class="footer__item-link">Hotline: 0981273361</a>
                                 </li>
                                 <li class="footer__item">
-                                    <span class="footer__item-link">Email: Nguyentaihuy05@gmmail.com</span>
+                                    <a href="mailto: Nguyentaihuy05@gmmail.com" class="footer__item-link">Email: Nguyentaihuy05@gmmail.com</a>
                                 </li>
                             </ul>
                             <div class="footer-hotline">
-                                <a href="tell:0981273361" class="footer-hotline__item">
+                                <a href="tell: 0981273361" class="footer-hotline__item">
                                     <span class="footer-hotline__item-text">Hotline tư vấn đặt hàng</span>
                                     <div class="footer-hotline__item-phone">
                                         <i class="fa-solid fa-phone footer-hotline__item-icon"></i>

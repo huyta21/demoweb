@@ -287,6 +287,8 @@
     color: var(--white-color);
     text-transform: uppercase;
     font-weight: 700;
+    appearance: none;
+    --webkit-appearance: none;
 }
 
 .auth-form__aside {
