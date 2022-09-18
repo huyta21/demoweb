@@ -198,8 +198,31 @@
         display: block
     }
 
+
+    .login-checkk:checked ~ .modal {
+        display: block;
+    }
    
+    .modal__body-mobi {
+        background-color: var(--white-color);
+        margin: auto;
+        position: relative;
+        border-radius: 2px;
+        padding: 20px;
+        animation: growth linear 0.1s;
+        --growth-form: 0.7;
+        --growth-to: 1;
+        z-index: 10;
+        height: 100%;
+    }
+
+    .auth-form__form {
+        width: 100%;
+    }
     
+    .auth-form__checkk:checked ~ .auth-form__condition-item {
+        
+    }
 
 }
 
