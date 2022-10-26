@@ -549,7 +549,30 @@
     </div>
 
     
-    <!-- Form login -->
+   <script>
+    const $ = document.querySelector.bind(document)
+
+    const app = {
+        handleEvents: function() {
+            const headernavbar = $('.header__navbar')
+            const headernavbarHeight = headernavbar.offsetHeight
+
+            document.onscroll = function() {
+                const scrollTop = window.scrollY || document.documentElement.scrollTop
+                const newheadernavbarHeight = headernavbarHeight - scrollTop
+
+                headernavbar.style.height = newheadernavbarHeight > 0 ? newheadernavbarHeight +'px' :0
+                headernavbar.style.opacity = newheadernavbarHeight / headernavbarHeight
+
+            }
+        },
+        start: function() {
+            this.handleEvents()
+        }
+    }
+    app.start()
+
+   </script>
 
     
 </body>
