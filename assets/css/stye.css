@@ -431,6 +431,38 @@
     padding-left: 8px;
 }
 
+/* slider  */
+.w3-content {
+
+}
+
+.mySlides {display:none}
+
+.slider_show {
+    padding-right: 0;
+}
+
+.slider_show-btn {
+    background-color: rgba(0,0,0,.18);
+    font-size: 2rem;
+    border-radius: 4px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+.slider_banner-img {
+    width: 100%;
+}
+
+.slider_banner-img + .slider_banner-img {
+    margin-top: 10px;
+}
+
+/* end slider */
+
 .home-product {
     margin: 0 -5px 10px;
 }
